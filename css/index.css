@@ -1,0 +1,62 @@
+/**
+ * @author Sarathmon K R
+ * @email sarathmonkr1234@gmail.com
+ * @create date 2022-06-06 16:10:47
+ * @modify date 2022-06-06 16:10:47
+ * @desc [description]
+ */
+ .banner{
+     background-image: url(../img/bg1.jpeg);
+     
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .banner h2{
+     font-size: 55px;   
+ }
+ .section2 p::before{
+     content:'{ ';
+        color:#e74c3c;
+ }
+ .section2 p{
+     font-size: 24px;
+     font-weight: bold;
+ }
+ .section2 p::after{
+    content:' }';
+       color:#e74c3c;
+}
+.margin-left{
+    margin-left: -100px;
+}
+.module-bg{
+    background-image: url(../img/pg3image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.interview{
+    background-image: url(../img/pg41.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.interview1{
+    background-image: url(../img/pg42.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vh-60{
+    height: 60vh;
+}
+.interview div,.interview1 div{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 100%;  
+}
+@media screen and (max-width:576px){
+    .margin-left{
+        margin-left: 0;
+    }
+    .banner{
+        background-image: none;
+    }
+}
